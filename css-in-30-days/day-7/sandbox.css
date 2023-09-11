@@ -1,0 +1,49 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+.grayscale {
+    filter: grayscale(1);
+    -webkit-transition: filter 0.6s ease;
+    transition: filter 0.6s ease;
+}
+
+.grayscale:hover {
+    filter: grayscale(0);
+    cursor: crosshair;
+}
+
+.blur {
+    filter: blur(3px);
+    -webkit-transition: filter 0.6s ease;
+    transition: filter 0.6s ease;
+}
+
+.blur:hover {
+    filter: blur(0);
+    cursor: crosshair;
+}
+
+.invert {
+    filter: invert(1);
+    -webkit-transition: filter 0.6s ease;
+    transition: filter 0.6s ease;
+}
+
+.invert:hover {
+    filter: invert(0);
+    cursor: crosshair;
+}
+
+.sepia {
+    filter: sepia(1);
+    -webkit-transition: filter 0.6s ease;
+    transition: filter 0.6s ease;
+}
+
+.sepia:hover {
+    filter: sepia(0);
+    cursor: crosshair;
+}
